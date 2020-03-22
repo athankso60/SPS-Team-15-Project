@@ -173,7 +173,7 @@ public final class FindMeetingQuery {
    }
 
    public void trimContainedNodes(List<TimeRange>listThatMayContainNestedEvents){
-       for(int i =0 ; i < listThatMayContainNestedEvents.size() ; i++){//iterating through the list and removing at the same time. (mark)
+       for(int i =0 ; i < listThatMayContainNestedEvents.size() ; i++){
            for(int j =0 ; j< listThatMayContainNestedEvents.size(); j++){
                 if(i==j){//skip for same one
                     continue;

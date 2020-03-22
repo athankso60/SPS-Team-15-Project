@@ -60,8 +60,8 @@ function getMessages() {
 
 //check whether user is logged in using async
 async function checkWhetherUserIsLoggedIn() {
-    const commentForm = document.getElementById('comment-form');
-    const logInOutDiv = document.getElementById('logInOut');
+   const commentForm = document.getElementById('comment-form');
+  const logInOutDiv = document.getElementById('logInOut');
   //set visibility of form and logurl to none
    commentForm.style.display="none";
    logInOutDiv.style.display="none";
@@ -90,7 +90,7 @@ async function checkWhetherUserIsLoggedIn() {
   }
 }
 
-/** Creates an <li> element containing text. */
+/* Creates an <li> element containing text. */
 function createListElement(text) {
   const liElement = document.createElement('li');
   liElement.innerText = text;
